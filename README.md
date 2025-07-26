@@ -1,3 +1,3 @@
 # Info
 
-Este es un repositorio experimental
+Este es un repositorio experimental no descargar
