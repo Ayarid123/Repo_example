@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+}
+
+.main-nav{
+    list-style: none;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-nav-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-nav-item a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.main-nav-item a:hover{
+    color: rgb(197, 19, 176);
+}
+
+.main-nav-item a:active{
+    color: rgb(102, 19, 197);
+}
+
+.main-nav-item a::after{
+    content: " | ";
+}
+
+h2 + p {
+    font-size: 1.2em;
+    color: #4ebe1e;
+}
+
+/* sibling general todo lo que este por debajo de la etiqueta que pones primero en este caso el H3  */
+h3 ~ p {
+    font-size: 1em;
+    color: #e14bd2;
+}
+
+/* Hijo directo*/
+
+div > h2 {
+    color: #1e4bce;
+    font-size: 1.5em;
+}
+
+/* Desendientes */
+
+.section h2 {
+    color: #f08010;
+    font-size: 1.2em;
+}
